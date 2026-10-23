@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes Manager</title>
+
+    <!-- Connect our CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>My Notes</h1>
+            <p>Write down your thoughts and ideas.</p>
+        </header>
+
+        <!-- Form for creating a note -->
+        <form id="noteForm">
+            <input
+                type="text"
+                id="title"
+                placeholder="Note title"
+                required
+            >
+
+            <textarea
+                id="content"
+                placeholder="Write your note here..."
+                required
+            ></textarea>
+
+            <button type="submit" id="saveButton">Add Note</button>
+        </form>
+
+        <!-- Message area for feedback -->
+        <p id="message"></p>
+
+        <!-- Notes will appear here -->
+        <section id="notesList">
+            <p class="empty-message">Your notes will appear here.</p>
+        </section>
+    </div>
+
+    <!-- Connect our JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
