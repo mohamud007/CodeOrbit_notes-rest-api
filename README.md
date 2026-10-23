@@ -27,6 +27,11 @@ A simple Notes REST API built using Node.js and Express.js, with a frontend that
 
 Install [Node.js](https://nodejs.org/) and npm.
 
+### Screenshot
+**Home Page**
+
+![Home Page](https://github.com/mohamud007/CodeOrbit_notes-rest-api/blob/main/Screenshot%202026-10-23%20182958.png)
+
 ### 1. Clone the repository
 
 ```bash
